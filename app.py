@@ -78,7 +78,7 @@ def load_tokens(server_name, for_visit=False):
             path = "token_bd_visit.json"
     else:
         if server_name == "BD":
-            path = "token_ind.json"
+            path = "token_bd.json"
         elif server_name in {"BR", "US", "SAC", "NA"}:
             path = "token_br.json"
         else:
